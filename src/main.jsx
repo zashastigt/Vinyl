@@ -9,7 +9,6 @@ import VinylInfo from "./assets/Vinyl/VinylInfo.jsx";
 
 function Page() {
     const [selectedAlbum, setSelectedAlbum] = useState('Lotus')
-
     return (
         <div id={'container'}>
             <div id={'list'}>
