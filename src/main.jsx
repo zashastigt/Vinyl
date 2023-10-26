@@ -3,9 +3,9 @@ import React from 'react'
 import {useState} from "react";
 import { Canvas } from '@react-three/fiber'
 import {Scroll, ScrollControls} from '@react-three/drei'
-import VinylList from "./assets/Vinyl/VinylList.jsx"
+import VinylList from "./Vinyl/VinylList.jsx"
 import './index.css'
-import VinylInfo from "./assets/Vinyl/VinylInfo.jsx";
+import VinylInfo from "./Vinyl/VinylInfo.jsx";
 
 function Page() {
     const [selectedAlbum, setSelectedAlbum] = useState('Lotus')

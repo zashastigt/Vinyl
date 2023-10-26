@@ -1,5 +1,5 @@
 import React from 'react'
-import vinyls from '../../data/Vinyl.json'
+import vinyls from '../data/Vinyl.json'
 
 export default function VinylInfo(props) {
     return (

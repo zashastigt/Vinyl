@@ -1,8 +1,8 @@
 import React from 'react'
 import { Flex, Box } from '@react-three/flex'
 import Vinyl from "./Vinyl.jsx";
-import vinyls from '../../data/Vinyl.json'
-import '../../index.css'
+import vinyls from '../data/Vinyl.json'
+import '../index.css'
 
 export default function VinylList(props) {
 

@@ -1,9 +1,10 @@
 import React, { useRef, useState } from 'react'
 import {useTexture} from "@react-three/drei";
-import vinyls from "../../data/Vinyl.json";
+import vinyls from "../data/Vinyl.json";
 
 export default function Vinyl(props) {
     const meshRef = useRef()
+
     const albumArt = useTexture(vinyls[props.album].albumArt)
 
     const [hovered, setHover] = useState(false)
