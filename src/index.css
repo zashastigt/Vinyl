@@ -1,7 +1,7 @@
 body {
     background-color: #111;
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 #container {
@@ -10,18 +10,16 @@ body {
 }
 
 #container > div {
-    width: 50vw;
     height: 100vh;
-    color: black;
+    color: #eee;
 }
 
 #container > #list {
-    width: available;
+    width: 70vw;
 }
 
 #container > #info {
-    width: 100vh;
-    aspect-ratio: 1;
+    width: fit-content;
 }
 
 #list div::-webkit-scrollbar {
@@ -33,13 +31,14 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 30vw;
+    height: 30vw;
     background-size: cover;
 }
 
 .blur {
     backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 #title {
@@ -61,4 +60,10 @@ body {
 
 #spotify {
     width: 100%;
+}
+
+.lp {
+    width: 30vw;
+    height: 90vh;
+    background-color: lightblue;
 }

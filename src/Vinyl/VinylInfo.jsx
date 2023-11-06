@@ -1,21 +1,47 @@
-import React from 'react'
-import vinyls from '../data/Vinyl.json'
+import React, {useState} from 'react'
+import vinyls from '../data/vinyl.json'
+import {Canvas} from "@react-three/fiber";
+import {CameraControls, Circle, Cylinder, Tube} from "@react-three/drei";
 
 export default function VinylInfo(props) {
+
     return (
-        <div id={'infoBackground'} style={{backgroundImage: `url(${vinyls[props.album].albumArt})`}}>
-            <div id={'title'} className={'blur'}>
-                <span id={'album'}>{props.album}</span>
-                <span id={'band'}>{vinyls[props.album].band}</span>
-            </div>
-            <div id={'spotify'} className={'blur'}>
-                <iframe
-                    src={vinyls[props.album].spotify}
-                    width="100%" height="352" frameBorder="0" allowFullScreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                    loading="lazy">
-                </iframe>
-            </div>
+        <div id={'info'}>
+            {props.showInfo ?
+                <>
+                    <div id={'infoBackground'} style={{backgroundImage: `url(${vinyls[props.album].albumArt})`}}>
+                        <button onClick={(e) => props.setShowInfo(false)}>close</button>
+                        <div id={'title'} className={'blur'}>
+                            <span id={'album'}>{props.album}</span>
+                            <span id={'band'}>{vinyls[props.album].band}</span>
+                        </div>
+                    </div>
+                    <div id={'spotify'} className={'blur'}>
+                        <iframe
+                            src={vinyls[props.album].spotify}
+                            width="100%" height="352" frameBorder="0" allowFullScreen=""
+                            allow="autoplay; clipboard-write encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </>
+                :
+                <>
+                    <div>
+                        <h3> This is a list a all the vinyl lp's I own</h3>
+                        <div className={'lp'}>
+                            <Canvas>
+                                <ambientLight />
+                                <pointLight position={[0, 0, 5]} intensity={40} />
+                                <CameraControls />
+                                <Cylinder args={[1, 1, 0.2]} material-color={'purple'} />
+                            </Canvas>
+                        </div>
+
+                    </div>
+                </>
+
+            }
 
         </div>
     )
