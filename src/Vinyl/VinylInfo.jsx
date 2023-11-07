@@ -1,7 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
 import vinyls from '../data/vinyl.json'
-import {Canvas} from "@react-three/fiber";
-import {CameraControls, Circle, Cylinder, Tube} from "@react-three/drei";
 
 export default function VinylInfo(props) {
 
@@ -11,7 +9,7 @@ export default function VinylInfo(props) {
                 <>
                     <div id={'infoBackground'} style={{backgroundImage: `url(${vinyls[props.album].albumArt})`}}>
                         <div className={'close blur'} onClick={(e) => props.setShowInfo(false)}>
-                            <img src={'/x-button.png'}/>
+                            <img src={'/x-button.png'} alt={'close'}/>
                         </div>
                         <div id={'title'} className={'blur'}>
                             <span id={'album'}>{props.album}</span>
@@ -29,16 +27,22 @@ export default function VinylInfo(props) {
                 </>
                 :
                 <>
-                    <div>
+                    <div className={'specialFont'}>
                         <h3> This is a list a all the vinyl lp's I own</h3>
-                        <div className={'lp'}>
-                            <Canvas>
-                                <ambientLight />
-                                <pointLight position={[0, 0, 5]} intensity={40} />
-                                <CameraControls />
-                                <Cylinder args={[1, 1, 0.05]} material-color={'#111'} />
-                            </Canvas>
-                        </div>
+                        <table>
+                            <tr>
+                                <th>Album</th>
+                                <th>Band/Artist</th>
+                            </tr>
+                            {Object.keys(vinyls).map(key => {
+                                return (
+                                    <tr>
+                                        <td>{key}</td>
+                                        <td>{vinyls[key].band}</td>
+                                    </tr>
+                                )
+                            })}
+                        </table>
 
                     </div>
                 </>

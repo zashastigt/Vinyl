@@ -1,7 +1,8 @@
 body {
     background-color: #111;
     margin: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
+    font-family: Garamond, sans-serif;
 }
 
 #container {
@@ -38,7 +39,7 @@ body {
 }
 
 .blur {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -63,11 +64,6 @@ body {
     width: 100%;
 }
 
-.lp {
-    width: 30vw;
-    height: 90vh;
-}
-
 .close {
     position: absolute;
     top: 0;
@@ -79,4 +75,12 @@ body {
 .close img {
     width: 20px;
     height: 20px;
+}
+
+table td, table th {
+    border-bottom: #666 solid 1px;
+}
+
+.specialFont {
+    font-family: "Ink Free", serif;
 }
