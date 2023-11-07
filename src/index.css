@@ -27,6 +27,7 @@ body {
 }
 
 #infoBackground {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -65,5 +66,17 @@ body {
 .lp {
     width: 30vw;
     height: 90vh;
-    background-color: lightblue;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    z-index: 1;
+}
+
+.close img {
+    width: 20px;
+    height: 20px;
 }

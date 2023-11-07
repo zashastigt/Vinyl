@@ -10,7 +10,9 @@ export default function VinylInfo(props) {
             {props.showInfo ?
                 <>
                     <div id={'infoBackground'} style={{backgroundImage: `url(${vinyls[props.album].albumArt})`}}>
-                        <button onClick={(e) => props.setShowInfo(false)}>close</button>
+                        <div className={'close blur'} onClick={(e) => props.setShowInfo(false)}>
+                            <img src={'/x-button.png'}/>
+                        </div>
                         <div id={'title'} className={'blur'}>
                             <span id={'album'}>{props.album}</span>
                             <span id={'band'}>{vinyls[props.album].band}</span>
@@ -34,7 +36,7 @@ export default function VinylInfo(props) {
                                 <ambientLight />
                                 <pointLight position={[0, 0, 5]} intensity={40} />
                                 <CameraControls />
-                                <Cylinder args={[1, 1, 0.2]} material-color={'purple'} />
+                                <Cylinder args={[1, 1, 0.05]} material-color={'#111'} />
                             </Canvas>
                         </div>
 

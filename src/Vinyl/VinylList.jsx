@@ -1,15 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Flex, Box } from '@react-three/flex'
 import Vinyl from "./Vinyl.jsx";
 import vinyls from '../data/vinyl.json'
 import '../index.css'
 import {useThree} from "@react-three/fiber";
-import {Center} from "@react-three/drei";
+import {Center, Cylinder} from "@react-three/drei";
 
 export default function VinylList(props) {
     const viewport = useThree((state) => state.viewport);
+    const [hovered, setHover] = useState(false)
     return (
-        <group position={[-viewport.width/2.5, viewport.height/3, 0]}>
+        <group position={[-viewport.width/2.6, viewport.height/2.7, 0]}>
             <Center>
                 <Flex
                     flexDirection={'row'}
@@ -19,8 +20,17 @@ export default function VinylList(props) {
                 >
                     {Object.keys(vinyls).map(key => {
                         return (
-                            <Box key={key} margin={0.2}>
-                                <Vinyl album={key} setSelectedAlbum={props.setSelectedAlbum} setShowInfo={props.setShowInfo} />
+                            <Box key={key} margin={0.1}>
+                                <Vinyl
+                                    album={key}
+                                    setSelectedAlbum={props.setSelectedAlbum}
+                                    setShowInfo={props.setShowInfo}
+                                    onPointerOver={(e) => setHover(true)}
+                                    onPointerOut={(e) => setHover(false)}
+                                />
+
+
+
                             </Box>
                         )
                     })}
