@@ -9,7 +9,7 @@ export default function VinylInfo(props) {
                 <>
                     <div id={'infoBackground'} style={{backgroundImage: `url(${vinyls[props.album].albumArt})`}}>
                         <div className={'close blur'} onClick={(e) => props.setShowInfo(false)}>
-                            <img src={'/x-button.png'} alt={'close'}/>
+                            <img src={'../x-button.png'} alt={'close'}/>
                         </div>
                         <div id={'title'} className={'blur'}>
                             <span id={'album'}>{props.album}</span>
