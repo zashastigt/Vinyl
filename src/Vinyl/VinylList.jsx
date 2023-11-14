@@ -17,13 +17,16 @@ export default function VinylList(props) {
                     flexWrap={'wrap'}
                     size={[viewport.width, 0, 0]}
                 >
-                    {Object.keys(vinyls).map(key => {
+                    {Object.keys(vinyls).map(album => {
+                        console.log(vinyls[album].outsideColor)
                         return (
-                            <Box key={key} margin={0.1}>
+                            <Box key={album} margin={0.1}>
                                 <Vinyl
-                                    album={key}
+                                    album={album}
                                     setSelectedAlbum={props.setSelectedAlbum}
                                     setShowInfo={props.setShowInfo}
+                                    outsideVinylColor={vinyls[album].outsideColor}
+                                    insideVinylColor={vinyls[album].insideColor}
                                 />
                             </Box>
                         )

@@ -23,8 +23,8 @@ export default function Vinyl(props) {
                 <boxGeometry args={[1.5, 1.5, 0.0375]} />
                 <meshStandardMaterial map={albumArt} color={'white'} />
             </mesh>
-            <Cylinder args={[0.73, 0.73, 0.02]} position={hovered ? [0.73, 0, 0] : [0, 0, 0]} rotation={[Math.PI / 2, 0, 0]} material-color={'#111'} />
-            <Cylinder args={[0.25, 0.25, 0.02]} position={hovered ? [0.73, 0, 0] : [0, 0, 0]} rotation={[Math.PI / 2, 0, 0]} material-color={'darkred'} />
+            <Cylinder args={[0.73, 0.73, 0.02]} position={hovered ? [0.73, 0, 0] : [0, 0, 0]} rotation={[Math.PI / 2, 0, 0]} material-color={props.outsideVinylColor} />
+            <Cylinder args={[0.25, 0.25, 0.02]} position={hovered ? [0.73, 0, 0] : [0, 0, 0]} rotation={[Math.PI / 2, 0, 0]} material-color={props.insideVinylColor} />
         </group>
 
     )

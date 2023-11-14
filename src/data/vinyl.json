@@ -2,159 +2,223 @@
   "PetroDragonic Apocalypse": {
     "band": "King Gizzard & The Lizard Wizard",
     "albumArt": "albumArt/PetroDragonic-Apocalypse.jpg",
-    "spotify": "https://open.spotify.com/embed/album/53X6xpjjMDMfZ5IWMyonvC?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/53X6xpjjMDMfZ5IWMyonvC?utm_source=generator&theme=0",
+    "outsideColor": "#4D4A3F",
+    "insideColor": "#111"
   },
   "Demon Days": {
     "band": "Gorillaz",
     "albumArt": "albumArt/Demon-Days.jpg",
-    "spotify": "https://open.spotify.com/embed/album/0bUTHlWbkSQysoM3VsWldT?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/0bUTHlWbkSQysoM3VsWldT?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#EEE"
   },
   "The Now Now": {
     "band": "Gorillaz",
     "albumArt": "albumArt/The-Now-Now.jpg",
-    "spotify": "https://open.spotify.com/embed/album/1amYhlukNF8WdaQC3gKkgL?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/1amYhlukNF8WdaQC3gKkgL?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#F15793"
   },
   "Dark Souls III": {
     "band": "Yuka Kitamura, Motoi Sakuraba, Tsukasa Saitoh, Nobuyoshi Suzuki",
     "albumArt": "albumArt/Dark-Souls-III.png",
-    "spotify": "https://open.spotify.com/embed/album/0PvVmNbiZM82gnZLPKxhu6?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/0PvVmNbiZM82gnZLPKxhu6?utm_source=generator&theme=0",
+    "outsideColor": "#5f5A24",
+    "insideColor": "#222"
   },
   "NieR: Automata": {
     "band": "Square Enix Music",
     "albumArt": "albumArt/NieR-Automata.png",
-    "spotify": "https://open.spotify.com/embed/album/6Nws2NAPuxaHzB7MfD1lhg?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/6Nws2NAPuxaHzB7MfD1lhg?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#EEE"
   },
   "NieR Gesalt & Replicant": {
     "band": "Square Enix Music",
     "albumArt": "albumArt/NieR-Gesalt&Replicant.png",
-    "spotify": "https://open.spotify.com/embed/album/5EvfMZYvdWB2XPZT0IvcyI?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/5EvfMZYvdWB2XPZT0IvcyI?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#EEE"
   },
   "Final Fantasy XIV Shadowbringers": {
     "band": "Masayoshi Soken",
     "albumArt": "albumArt/FFXIV-Shadowbringers.webp",
-    "spotify": "https://open.spotify.com/embed/album/6bm2zfTwTBJ66rObupBJxS?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/6bm2zfTwTBJ66rObupBJxS?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#9F9676"
   },
   "Wallflower": {
     "band": "Jinjer",
     "albumArt": "albumArt/Wallflower.jpg",
-    "spotify": "https://open.spotify.com/embed/album/3LEftQAmoSdbX1hXvA7rMT?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/3LEftQAmoSdbX1hXvA7rMT?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "American Idiot": {
     "band": "Green Day",
     "albumArt": "albumArt/American-Idiot.jpg",
-    "spotify": "https://open.spotify.com/embed/album/5dN7F9DV0Qg1XRdIgW8rke?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/5dN7F9DV0Qg1XRdIgW8rke?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "Amends": {
     "band": "Grey Daze",
     "albumArt": "albumArt/Amends.jpg",
-    "spotify": "https://open.spotify.com/embed/album/67HpukNc3CzJhqYneGVim6?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/67HpukNc3CzJhqYneGVim6?utm_source=generator&theme=0",
+    "outsideColor": "#0D463E",
+    "insideColor": "#111"
   },
   "Rust In Peace": {
     "band": "Megadeth",
     "albumArt": "albumArt/Rust-In-Peace.jpg",
-    "spotify": "https://open.spotify.com/embed/album/4e6ML9RBhDyyKTaTwbiRZv?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/4e6ML9RBhDyyKTaTwbiRZv?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "Untitled": {
     "band": "Rammstein",
     "albumArt": "albumArt/Untitled.jpg",
-    "spotify": "https://open.spotify.com/embed/album/1LoyJQVHPLHE3fCCS8Juek?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/1LoyJQVHPLHE3fCCS8Juek?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#DDD"
   },
   "Mutter": {
     "band": "Rammstein",
     "albumArt": "albumArt/Mutter.jpg",
-    "spotify": "https://open.spotify.com/embed/album/1CtTTpKbHU8KbHRB4LmBbv?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/1CtTTpKbHU8KbHRB4LmBbv?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#c5c0a7"
   },
   "The God Machine": {
     "band": "Blind Guardian",
     "albumArt": "albumArt/The-God-Machine.jpg",
-    "spotify": "https://open.spotify.com/embed/album/4aoy2NnmDpWvjWi9taOHYe?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/4aoy2NnmDpWvjWi9taOHYe?utm_source=generator&theme=0",
+    "outsideColor": "#BBB",
+    "insideColor": "#d0d0cd"
   },
   "IMPERIAL": {
     "band": "Soen",
     "albumArt": "albumArt/IMPERIAL.jpg",
-    "spotify": "https://open.spotify.com/embed/album/49iLyqy5332uQV3q5qDmA2?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/49iLyqy5332uQV3q5qDmA2?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "Lotus": {
     "band": "Soen",
     "albumArt": "albumArt/Lotus.jpg",
-    "spotify": "https://open.spotify.com/embed/album/16v3Ule2sTTWT37VKUsH6F?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/16v3Ule2sTTWT37VKUsH6F?utm_source=generator&theme=0",
+    "outsideColor": "#EEE",
+    "insideColor": "#333"
   },
   "The Undiscovered Lotus": {
     "band": "Soen",
-    "albumArt": "albumArt/The-Undiscovered_Lotus.jpg"
+    "albumArt": "albumArt/The-Undiscovered_Lotus.jpg",
+    "outsideColor": "#000",
+    "insideColor": "#EEE"
   },
   "Appetite For Destruction": {
     "band": "Guns N' Roses",
     "albumArt": "albumArt/Appetite-For-Destruction.jpg",
-    "spotify": "https://open.spotify.com/embed/album/28yHV3Gdg30AiB8h8em1eW?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/28yHV3Gdg30AiB8h8em1eW?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "Robot Face": {
     "band": "Caravan Palace",
     "albumArt": "albumArt/Robot-Face.jpg",
-    "spotify": "https://open.spotify.com/embed/album/1BMsvIq5sueuo1b0ySLQZO?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/1BMsvIq5sueuo1b0ySLQZO?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#0e164a"
   },
   "The Gray Chapter": {
     "band": "Slipknot",
     "albumArt": "albumArt/The-Gray-Chapter.jpg",
-    "spotify": "https://open.spotify.com/embed/album/0ApKaazNHf0gzjAYZauexq?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/0ApKaazNHf0gzjAYZauexq?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "Berserker": {
     "band": "Beast in Black",
     "albumArt": "albumArt/Berserker.jpg",
-    "spotify": "https://open.spotify.com/embed/album/499iZ0ie.iB5jO9jSOWx?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/499iZ0ie.iB5jO9jSOWx?utm_source=generator&theme=0",
+    "outsideColor": "#855902",
+    "insideColor": "#EEE"
   },
   "Best of the Blessed": {
     "band": "Powerwolf",
     "albumArt": "albumArt/Best-of-the-Blessed.jpg",
-    "spotify": "https://open.spotify.com/embed/album/4NXUfOL0Y0GFCyIivAhJUu?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/4NXUfOL0Y0GFCyIivAhJUu?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#5b5b5b"
   },
   "The Evolution Of Tears": {
     "band": "The Gentleman",
     "albumArt": "albumArt/The-Evolution-Of-Tears.jpg",
-    "spotify": "https://open.spotify.com/embed/album/2hvCFY4DYaKzzkNYd60oS3?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/2hvCFY4DYaKzzkNYd60oS3?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "Distance Over Time": {
     "band": "Dream Theater",
     "albumArt": "albumArt/Distance-Over-Time.jpg",
-    "spotify": "https://open.spotify.com/embed/album/1sRDi0MSGOy91fHhcpXIu4?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/1sRDi0MSGOy91fHhcpXIu4?utm_source=generator&theme=0",
+    "outsideColor": "#0a153d",
+    "insideColor": "#555"
   },
   "No Need To Argue": {
     "band": "The Cranberries",
     "albumArt": "albumArt/No-Need-To-Argue.jpg",
-    "spotify": "https://open.spotify.com/embed/album/1Bwo9JkbVwxGyvtQNMRK21?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/1Bwo9JkbVwxGyvtQNMRK21?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#0a153d"
   },
   "Cross Road": {
     "band": "Bon Jovi",
     "albumArt": "albumArt/Cross-Road.jpg",
-    "spotify": "https://open.spotify.com/embed/album/0tBfLeYdX3oBnl5NVpot4m?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/0tBfLeYdX3oBnl5NVpot4m?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#4d4d4d"
   },
   "Painkiller": {
     "band": "Judas Priest",
     "albumArt": "albumArt/Painkiller.jpg",
-    "spotify": "https://open.spotify.com/embed/album/7LgrhuKnAXpNEv8qzcVd2t?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/7LgrhuKnAXpNEv8qzcVd2t?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#5E1D84"
   },
   "Firepower": {
     "band": "Judas Priest",
     "albumArt": "albumArt/Firepower.jpg",
-    "spotify": "https://open.spotify.com/embed/album/7p3G0OCxtlWyJcPE1FxnyB?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/7p3G0OCxtlWyJcPE1FxnyB?utm_source=generator&theme=0",
+    "outsideColor": "#FF0000",
+    "insideColor": "#e5ae49"
   },
   "TEKKNO": {
     "band": "Electric Callboy",
     "albumArt": "albumArt/Tekkno.jpg",
-    "spotify": "https://open.spotify.com/embed/album/1RCinQ2MnD8yNRsXKpeKFg?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/1RCinQ2MnD8yNRsXKpeKFg?utm_source=generator&theme=0",
+    "outsideColor": "#2E66CF",
+    "insideColor": "#AAA"
   },
   "Hybrid Theory": {
     "band": "Linkin Park",
     "albumArt": "albumArt/Hybrid-Theory.jpg",
-    "spotify": "https://open.spotify.com/embed/album/6PFPjumGRpZnBzqnDci6qJ?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/6PFPjumGRpZnBzqnDci6qJ?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "Reanimation": {
     "band": "Linkin Park",
     "albumArt": "albumArt/Reanimation.jpg",
-    "spotify": "https://open.spotify.com/embed/album/2NbO8RRVTVEUjHaxUVdMDT?utm_source=generator&theme=0"
+    "spotify": "https://open.spotify.com/embed/album/2NbO8RRVTVEUjHaxUVdMDT?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   },
   "B-Side Rarities": {
     "band": "Linken Park",
-    "albumArt": "albumArt/B-Side-Rarities.jpg"
+    "albumArt": "albumArt/B-Side-Rarities.jpg",
+    "outsideColor": "#000",
+    "insideColor": "#222"
   }
 }
