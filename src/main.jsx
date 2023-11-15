@@ -2,15 +2,16 @@ import ReactDOM from 'react-dom/client'
 import React from 'react'
 import {useState} from "react";
 import { Canvas } from '@react-three/fiber'
-import {Scroll, ScrollControls} from '@react-three/drei'
+import {Box, CameraControls, Line, Plane, Scroll, ScrollControls} from '@react-three/drei'
 import VinylList from "./Vinyl/VinylList.jsx"
 import './index.css'
-import VinylInfo from "./Vinyl/VinylInfo.jsx";
+import VinylInfo from "./Vinyl/VinylInfo.jsx"
+import Lines from "./lines/lines"
 import vinyls from './data/vinyl.json'
 
 function Page() {
     const [selectedAlbum, setSelectedAlbum] = useState(Object.keys(vinyls)[0])
-    const [showInfo, setShowInfo] = useState(true)
+    const [showInfo, setShowInfo] = useState(false)
     return (
         <div id={'container'}>
             <div id={'list'}>
@@ -20,6 +21,7 @@ function Page() {
                     <ScrollControls pages={2} damping={0.1} >
                         <Scroll>
                             <VinylList setSelectedAlbum={setSelectedAlbum} showInfo={showInfo} setShowInfo={setShowInfo} />
+                            <Lines color={vinyls[selectedAlbum].outsideColor} />
                         </Scroll>
                     </ScrollControls>
                 </Canvas>

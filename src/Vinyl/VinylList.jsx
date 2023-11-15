@@ -18,7 +18,6 @@ export default function VinylList(props) {
                     size={[viewport.width, 0, 0]}
                 >
                     {Object.keys(vinyls).map(album => {
-                        console.log(vinyls[album].outsideColor)
                         return (
                             <Box key={album} margin={0.1}>
                                 <Vinyl
