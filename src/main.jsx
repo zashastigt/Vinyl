@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 import React from 'react'
 import {useState} from "react";
 import { Canvas } from '@react-three/fiber'
-import {Box, CameraControls, Line, Plane, Scroll, ScrollControls} from '@react-three/drei'
+import {Scroll, ScrollControls} from '@react-three/drei'
 import VinylList from "./Vinyl/VinylList.jsx"
 import './index.css'
 import VinylInfo from "./Vinyl/VinylInfo.jsx"

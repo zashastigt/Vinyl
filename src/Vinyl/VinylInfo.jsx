@@ -45,9 +45,7 @@ export default function VinylInfo(props) {
 
                     </div>
                 </>
-
             }
-
         </div>
     )
 }

@@ -107,7 +107,7 @@
   "Lotus": {
     "band": "Soen",
     "albumArt": "albumArt/Lotus.jpg",
-    "spotify": "https://open.spotify.com/embed/album/16v3Ule2sTTWT37VKUsH6F?utm_source=generator&theme=0",
+
     "outsideColor": "#EEE",
     "insideColor": "#333"
   },
@@ -116,6 +116,13 @@
     "albumArt": "albumArt/The-Undiscovered_Lotus.jpg",
     "outsideColor": "#000",
     "insideColor": "#EEE"
+  },
+  "Technatura": {
+    "band": "Vulkan",
+    "albumArt": "albumArt/Technatura.jpg",
+    "spotify": "https://open.spotify.com/embed/album/4eCtx7aIiU0nnInv1jZB4g?utm_source=generator&theme=0",
+    "outsideColor": "#000",
+    "insideColor": "#ffa042"
   },
   "Appetite For Destruction": {
     "band": "Guns N' Roses",
