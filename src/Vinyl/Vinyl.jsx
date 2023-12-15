@@ -6,7 +6,7 @@ import Disc from "./Disc.jsx";
 
 export default function Vinyl(props) {
     const meshRef = useRef()
-    const albumArt = useTexture(vinyls[props.album].albumArt)
+    const albumArt = useTexture(vinyls["List 1"][props.album].albumArt)
     const [hovered, setHover] = useState(false)
 
     useFrame((state, delta) => {

@@ -10,24 +10,47 @@ import Lines from "./lines/lines"
 import vinyls from './data/vinyl.json'
 
 function Page() {
-    const [selectedAlbum, setSelectedAlbum] = useState(Object.keys(vinyls)[0])
+    const [selectedList, setSelectedList] = useState('List 1')
+    const [selectedAlbum, setSelectedAlbum] = useState(Object.keys(vinyls[selectedList])[0])
     const [showInfo, setShowInfo] = useState(false)
+
     return (
         <div id={'container'}>
+            <div id={"listSelect"}>
+                {Object.keys(vinyls).map(key => {
+                    return (
+                        <div className={'specialFont'} key={key} onClick={() => {
+                            setSelectedList(key)
+                            setShowInfo(false)
+                        }}>{key}</div>
+                    )
+                })}
+            </div>
             <div id={'list'}>
                 <Canvas>
                     <ambientLight />
                     <pointLight position={[0, 0, 5]} intensity={40} />
                     <ScrollControls pages={2} damping={0.1} >
                         <Scroll>
-                            <VinylList setSelectedAlbum={setSelectedAlbum} showInfo={showInfo} setShowInfo={setShowInfo} />
-                            <Lines color={vinyls[selectedAlbum].outsideColor} />
+                            <VinylList
+                                list={vinyls[selectedList]}
+                                selectedList={selectedList}
+                                setSelectedAlbum={setSelectedAlbum}
+                                showInfo={showInfo}
+                                setShowInfo={setShowInfo}
+                            />
+                            <Lines color={vinyls["List 1"][selectedAlbum].outsideColor} />
                         </Scroll>
                     </ScrollControls>
                 </Canvas>
             </div>
             <div id={'info'}>
-                <VinylInfo album={selectedAlbum} showInfo={showInfo} setShowInfo={setShowInfo} />
+                <VinylInfo
+                    list={vinyls[selectedList]}
+                    album={selectedAlbum}
+                    showInfo={showInfo}
+                    setShowInfo={setShowInfo}
+                />
             </div>
         </div>
     )

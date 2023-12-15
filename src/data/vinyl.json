@@ -1,4 +1,5 @@
 {
+"List 1": {
   "PetroDragonic Apocalypse": {
     "band": "King Gizzard & The Lizard Wizard",
     "albumArt": "albumArt/PetroDragonic-Apocalypse.jpg",
@@ -107,7 +108,6 @@
   "Lotus": {
     "band": "Soen",
     "albumArt": "albumArt/Lotus.jpg",
-
     "outsideColor": "#EEE",
     "insideColor": "#333"
   },
@@ -137,6 +137,13 @@
     "spotify": "https://open.spotify.com/embed/album/1BMsvIq5sueuo1b0ySLQZO?utm_source=generator&theme=0",
     "outsideColor": "#000",
     "insideColor": "#0e164a"
+  },
+  "Pain Remains": {
+    "band": "Lorna Shore",
+    "albumArt": "albumArt/Pain-Remains.jpg",
+    "spotify": "https://open.spotify.com/embed/album/1WuqlDJb7Z2ipBhM6ww7QI?utm_source=generator&theme=0",
+    "outsideColor": "#eee",
+    "insideColor": "#000"
   },
   "The Gray Chapter": {
     "band": "Slipknot",
@@ -227,5 +234,15 @@
     "albumArt": "albumArt/B-Side-Rarities.jpg",
     "outsideColor": "#000",
     "insideColor": "#222"
+  }
+},
+  "List 2": {
+    "PetroDragonic Apocalypse": {
+    "band": "King Gizzard & The Lizard Wizard",
+    "albumArt": "albumArt/PetroDragonic-Apocalypse.jpg",
+    "spotify": "https://open.spotify.com/embed/album/53X6xpjjMDMfZ5IWMyonvC?utm_source=generator&theme=0",
+    "outsideColor": "#4D4A3F",
+    "insideColor": "#111"
+    }
   }
 }

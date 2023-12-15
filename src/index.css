@@ -10,17 +10,33 @@ body {
     align-items: center;
 }
 
-#container > div {
+#container > #list {
+    width: 70vw;
     height: 100vh;
     color: #eee;
 }
 
-#container > #list {
-    width: 70vw;
-}
-
 #container > #info {
     width: fit-content;
+    height: 100vh;
+    color: #eee;
+}
+
+#listSelect {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: fit-content;
+}
+
+#listSelect > div {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
 }
 
 #list div::-webkit-scrollbar {
